@@ -6,13 +6,14 @@ Hands-on image processing work — from pixel-level fundamentals to a production
 
 ## Contents
 
-| File / Folder | Topics |
+| Folder | Topics |
 |---|---|
-| [`Lab Assignment.ipynb`](Lab%20Assignment.ipynb) | Image I/O with OpenCV & Pillow · Color spaces (BGR, RGB, Grayscale, HSV) · Resize, crop, rotate, flip · Channel splitting |
-| [`Assignment 2.ipynb`](Assignment%202.ipynb) | Manual histogram via NumPy (no `cv2.calcHist`) · Contrast stretching (min-max normalization) · PIL vs OpenCV workflow comparison |
-| [`IPP_Assignmet_5&6.ipynb`](IPP_Assignmet_5%266.ipynb) | Thresholding (binary / inverse) · Contour detection · Object counting · Area statistics (mean, median, min, max) · Shape classification (triangle, rectangle, circle) via `approxPolyDP` · Pandas summary table |
-| [`Lab_Assignment_7_8.ipynb`](Lab_Assignment_7_8.ipynb) | Advanced contour analysis · Convex hull · Convexity defect detection · Defective part identification with area thresholding |
-| [`APNR YOLO+Traditional method/`](APNR%20YOLO%2BTraditional%20method) | **Project** — Dual-pipeline ANPR: YOLOv8 plate detection vs contour-based detection · EasyOCR text extraction · Streamlit comparison UI |
+| [`01_fundamentals/`](01_fundamentals) | Image I/O with OpenCV & Pillow · Color spaces (BGR, RGB, Grayscale, HSV) · Resize, crop, rotate, flip · Channel splitting |
+| [`02_intensity_processing/`](02_intensity_processing) | Manual histogram via NumPy (no `cv2.calcHist`) · Contrast stretching (min-max normalization) · Histogram equalization |
+| [`03_morphological_analysis/`](03_morphological_analysis) | Thresholding · Contour detection · Object counting & area statistics · Shape classification · Convexity defect detection |
+| [`anpr/`](anpr) | **Project** — Dual-pipeline ANPR: YOLOv8 vs contour-based plate detection · EasyOCR · Streamlit UI · tutorial notebooks |
+
+Each folder has its own README with a detailed breakdown.
 
 ---
 

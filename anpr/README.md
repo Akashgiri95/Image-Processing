@@ -39,6 +39,15 @@ streamlit run app.py
 
 ---
 
+## Notebooks
+
+| Notebook | Purpose |
+|---|---|
+| [`anpr_tutorial.ipynb`](anpr_tutorial.ipynb) | Step-by-step walkthrough: grayscale → bilateral filter → Canny edges → contour-based plate localization → EasyOCR |
+| [`plate_detection_contour.ipynb`](plate_detection_contour.ipynb) | Standalone classical (contour-only) plate detection — the basis for Pipeline 2 in `app.py` |
+
+---
+
 ## Tech Stack
 
 Python · YOLOv8 (Ultralytics) · OpenCV · EasyOCR · Streamlit · imutils · NumPy
